@@ -25,5 +25,8 @@
   "description": "Hyperledger Proxy server",
   "repository": "git@github.com:amovah/hyperledger-proxy-server.git",
   "author": "Ali Movahedi <ali_movahedi@aol.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
