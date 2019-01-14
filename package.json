@@ -19,5 +19,11 @@
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1",
     "webpack-node-externals": "^1.7.2"
-  }
+  },
+  "name": "hyperledger-proxy-server",
+  "version": "1.0.0",
+  "description": "Hyperledger Proxy server",
+  "repository": "git@github.com:amovah/hyperledger-proxy-server.git",
+  "author": "Ali Movahedi <ali_movahedi@aol.com>",
+  "license": "MIT"
 }
