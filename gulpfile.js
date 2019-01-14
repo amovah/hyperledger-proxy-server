@@ -2,7 +2,6 @@
 
 const gulp = require('gulp');
 const del = require('del');
-const lint = require('gulp-eslint');
 
 gulp.task('clean', cb =>
   del([
