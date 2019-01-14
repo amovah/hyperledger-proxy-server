@@ -12,8 +12,8 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/', async (req, res) => {
-  const response = await request(generateUrl(new Date(0).toString(), Date().toString()));
+app.get('/:from', async (req, res) => {
+  const response = await request(generateUrl(req.params.from, Date().toString()));
   res.json(JSON.parse(response));
 });
 
