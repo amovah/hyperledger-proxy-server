@@ -2,8 +2,10 @@ import express from 'express';
 
 const app = express();
 
-app.use((res) => {
+app.use((req, res, next) => {
   res.set('Access-Control-Allow-Origin', '*');
+
+  next();
 });
 
 app.get('/', (req, res) => {
